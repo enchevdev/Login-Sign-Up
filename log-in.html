@@ -1,11 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
     <title>Login</title>
-</head>
-<body>
-    
-</body>
+  </head>
+
+  <body>
+    <div class="login-box">
+      <p class="glad">glad to see you!</p>
+
+      <form>
+        <input
+          class="input-box"
+          type="text"
+          id="username"
+          placeholder="Email or username"
+          required
+        />
+
+        <div class="email-password-box">
+          <input
+            class="input-box"
+            type="password"
+            id="password"
+            placeholder="Password"
+          />
+
+          <a class="forgot" href="#">Forgot password?</a>
+        </div>
+
+        <button class="login-btn" type="submit">Log in</button>
+        <p class="login-with">Or Login With</p>
+
+        <div class="google-facebook">
+          <button type="button" class="google-btn">
+            <img src="Google.png" alt="Google" />
+          </button>
+
+          <button type="button" class="facebook-btn">
+            <img src="Facebook.png" alt="Facebook" />
+          </button>
+        </div>
+      </form>
+    </div>
+    <div class="sign-up">
+      <p class="no-account">Dont have an account?</p>
+      <a class="sign-now" href="#">Sign Up Now</a>
+    </div>
+  </body>
 </html>

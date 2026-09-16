@@ -1,0 +1,103 @@
+body {
+  background-color: #90afa4;
+}
+
+.login-box {
+  text-align: center;
+  width: 400px;
+  padding: 32px;
+  margin: 0 auto;
+}
+
+.glad {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.email-password-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-box {
+  font-size: 12px;
+  width: 90%;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  background-color: #82aa97;
+  align-self: center;
+  color: #ffffff;
+  padding: 12px;
+}
+
+.input-box::placeholder {
+  color: #ffffff;
+}
+
+.forgot {
+  font-size: 11px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 17rem;
+  text-decoration: underline;
+}
+
+.login-btn {
+  background-color: #1e383e;
+  color: #ffffff;
+  width: 80%;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  align-self: center;
+}
+
+.login-with {
+  color: #ffffff;
+  font-size: 10px;
+}
+
+.google-btn,
+.facebook-btn {
+  background-color: #1e383e;
+  color: white;
+  width: 30%;
+  padding: 8px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+}
+
+a {
+  font-size: 11px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.no-account {
+  font-size: 11px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.sign-now {
+  color: #ffffff;
+  margin: 0;
+  font-size: 11px;
+  font-weight: bold;
+}
